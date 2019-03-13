@@ -1,0 +1,25 @@
+ .list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 145px;
+    width: 900px;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.shop {
+    align-items: space-evenly;
+    flex-basis: 28%;
+    border: 2px dotted black;
+    margin: -5px 5px 0px 20px;
+    line-height: 25px;
+    padding-left: 4px;
+}
+
+.pageHeader {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 15px;
+}
